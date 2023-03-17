@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List; // 사용이 왜 안될까? (수정완 , 원인 사용을 안했어서 list를)
-import java.util.Map;
+import java.util.Map; // ????????
 
 @RestController
 @RequestMapping(value = "/posts" , produces = MediaType.APPLICATION_JSON_VALUE)
